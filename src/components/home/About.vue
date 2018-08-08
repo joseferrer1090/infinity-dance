@@ -2,7 +2,7 @@
   <div>
     <section id="page-title" class="page-title-parallax page-title-dark page-title-right" 
       style="padding: 250px 0; 
-        background-image: url('@/assets/img/about.jpg'); 
+        background-image: url('/assets/img/about.jpg'); 
         background-size: cover; 
         background-position: center center;" 
       data-stellar-background-ratio="0.2">
