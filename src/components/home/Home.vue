@@ -24,7 +24,7 @@
                     <div class="col_one_third bottommargin">
                         <div class="feature-box media-box">
                             <div class="fbox-media">
-                                <a href="/competition"><img src="@/assets/img/competition_team_thumb.jpg" alt="Competition Dance">
+                                <a href="/competition"><img src="/assets/img/competition_team_thumb.jpg" alt="Competition Dance">
                                 </a>
                             </div>
                             <div class="fbox-desc">
@@ -79,10 +79,10 @@
                     <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 0px; top: 0px; width: 361px;">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/1t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                                <img alt="Snow white 2016" src="/assets/img/2016-snow-white/1t.jpg" style="visibility: visible; opacity: 1; display: block;">
                             </a>
                             <div class="portfolio-overlay">
-                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/1t_large.jpg"><em class="icon-line-plus"></em></a>
+                                <a data-lightbox="image" class="center-icon" href="/assets/img/2016-snow-white/1t_large.jpg"><em class="icon-line-plus"></em></a>
                             </div>
                         </div>
                         <div class="portfolio-desc">
@@ -93,10 +93,10 @@
                     <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 361px; top: 0px; width: 361px;">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/2t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                                <img alt="Snow white 2016" src="/assets/img/2016-snow-white/2t.jpg" style="visibility: visible; opacity: 1; display: block;">
                             </a>
                             <div class="portfolio-overlay">
-                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/2t_large.jpg"><em class="icon-line-plus"></em></a>
+                                <a data-lightbox="image" class="center-icon" href="/assets/img/2016-snow-white/2t_large.jpg"><em class="icon-line-plus"></em></a>
                             </div>
                         </div>
                         <div class="portfolio-desc">
@@ -107,10 +107,10 @@
                     <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 722px; top: 0px; width: 361px;">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/3t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                                <img alt="Snow white 2016" src="/assets/img/2016-snow-white/3t.jpg" style="visibility: visible; opacity: 1; display: block;">
                             </a>
                             <div class="portfolio-overlay">
-                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/3t_large.jpg"><em class="icon-line-plus"></em></a>
+                                <a data-lightbox="image" class="center-icon" href="/assets/img/2016-snow-white/3t_large.jpg"><em class="icon-line-plus"></em></a>
                             </div>
                         </div>
                         <div class="portfolio-desc">
@@ -121,10 +121,10 @@
                     <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 1083px; top: 0px; width: 361px;">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/4t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                                <img alt="Snow white 2016" src="/assets/img/2016-snow-white/4t.jpg" style="visibility: visible; opacity: 1; display: block;">
                             </a>
                             <div class="portfolio-overlay">
-                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/4t_large.jpg"><em class="icon-line-plus"></em></a>
+                                <a data-lightbox="image" class="center-icon" href="/assets/img/2016-snow-white/4t_large.jpg"><em class="icon-line-plus"></em></a>
                             </div>
                         </div>
                         <div class="portfolio-desc">
@@ -135,10 +135,10 @@
                     <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 0px; top: 270px; width: 361px;">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/5t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                                <img alt="Snow white 2016" src="/assets/img/2016-snow-white/5t.jpg" style="visibility: visible; opacity: 1; display: block;">
                             </a>
                             <div class="portfolio-overlay">
-                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/5t_large.jpg"><em class="icon-line-plus"></em></a>
+                                <a data-lightbox="image" class="center-icon" href="/assets/img/2016-snow-white/5t_large.jpg"><em class="icon-line-plus"></em></a>
                             </div>
                         </div>
                         <div class="portfolio-desc">
@@ -149,10 +149,10 @@
                     <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 361px; top: 270px; width: 361px;">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/6t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                                <img alt="Snow white 2016" src="/assets/img/2016-snow-white/6t.jpg" style="visibility: visible; opacity: 1; display: block;">
                             </a>
                             <div class="portfolio-overlay">
-                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/6t_large.jpg"><em class="icon-line-plus"></em></a>
+                                <a data-lightbox="image" class="center-icon" href="/assets/img/2016-snow-white/6t_large.jpg"><em class="icon-line-plus"></em></a>
                             </div>
                         </div>
                         <div class="portfolio-desc">
@@ -166,7 +166,7 @@
                                 <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/7t.jpg" style="visibility: visible; opacity: 1; display: block;">
                             </a>
                             <div class="portfolio-overlay">
-                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/7t_large.jpg"><em class="icon-line-plus"></em></a>
+                                <a data-lightbox="image" class="center-icon" href="/assets/img/2016-snow-white/7t_large.jpg"><em class="icon-line-plus"></em></a>
                             </div>
                         </div>
                         <div class="portfolio-desc">
@@ -177,10 +177,10 @@
                     <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 1083px; top: 270px; width: 361px;">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/8t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                                <img alt="Snow white 2016" src="/assets/img/2016-snow-white/8t.jpg" style="visibility: visible; opacity: 1; display: block;">
                             </a>
                             <div class="portfolio-overlay">
-                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/8t_large.jpg"><em class="icon-line-plus"></em></a>
+                                <a data-lightbox="image" class="center-icon" href="/assets/img/2016-snow-white/8t_large.jpg"><em class="icon-line-plus"></em></a>
                             </div>
                         </div>
                         <div class="portfolio-desc">
@@ -278,113 +278,33 @@
     components: {
       Slider
     },
-
     mounted(){
-        var tpj = window.jQuery;
-        tpj.noConflict();
-        tpj(document).ready(function() {
-          // console.log(tpj('.tp-banner').show().revolution())
-            var apiRevoSlider = tpj('.tp-banner').show().revolution({
-                dottedOverlay: "none",
-                delay: 9000,
-                startwidth: 1140,
-                startheight: 700,
-                hideThumbs: 200,
-
-                thumbWidth: 100,
-                thumbHeight: 50,
-                thumbAmount: 3,
-
-                navigationType: "none",
-                navigationArrows: "solo",
-                navigationStyle: "preview4",
-
-                touchenabled: "on",
-                onHoverStop: "on",
-
-                swipe_velocity: 0.7,
-                swipe_min_touches: 1,
-                swipe_max_touches: 1,
-                drag_block_vertical: false,
-
-
-                parallax: "mouse",
-                parallaxBgFreeze: "on",
-                parallaxLevels: [8, 7, 6, 5, 4, 3, 2, 1],
-                parallaxDisableOnMobile: "on",
-
-
-                keyboardNavigation: "on",
-
-                navigationHAlign: "center",
-                navigationVAlign: "bottom",
-                navigationHOffset: 0,
-                navigationVOffset: 20,
-
-                soloArrowLeftHalign: "left",
-                soloArrowLeftValign: "center",
-                soloArrowLeftHOffset: 20,
-                soloArrowLeftVOffset: 0,
-
-                soloArrowRightHalign: "right",
-                soloArrowRightValign: "center",
-                soloArrowRightHOffset: 20,
-                soloArrowRightVOffset: 0,
-
-                shadow: 0,
-                fullWidth: "off",
-                fullScreen: "on",
-
-                spinner: "spinner0",
-
-                stopLoop: "off",
-                stopAfterLoops: -1,
-                stopAtSlide: -1,
-
-                shuffle: "off",
-
-
-                forceFullWidth: "off",
-                fullScreenAlignForce: "off",
-                minFullScreenHeight: "400",
-
-                hideThumbsOnMobile: "off",
-                hideNavDelayOnMobile: 1500,
-                hideBulletsOnMobile: "off",
-                hideArrowsOnMobile: "off",
-                hideThumbsUnderResolution: 0,
-
-                hideSliderAtLimit: 0,
-                hideCaptionAtLimit: 0,
-                hideAllCaptionAtLilmit: 0,
-                startWithSlide: 0,
-                fullScreenOffsetContainer: ".header",
-                fullScreenOffset: "0px"
-            })
-
-            apiRevoSlider.bind("revolution.slide.onchange", function(e, data) {
-                if (tpj(window).width() > 992) {
-                    if (tpj('#slider ul > li').eq(data.slideIndex - 1).hasClass('dark')) {
-                        tpj('#header.transparent-header:not(.sticky-header,.semi-transparent)').addClass('dark');
-                        tpj(
-                            '#header.transparent-header.sticky-header,#header.transparent-header.semi-transparent.sticky-header'
-                        ).removeClass('dark');
-                        tpj('#header-wrap').removeClass('not-dark');
-                    } else {
-                        if (tpj('body').hasClass('dark')) {
-                            tpj('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
-                            tpj('#header.transparent-header:not(.sticky-header,.semi-transparent)').find('#header-wrap').addClass(
-                                'not-dark');
-                        } else {
-                            tpj('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
-                            tpj('#header-wrap').removeClass('not-dark');
-                        }
-                    }
-                    SEMICOLON.header.darkLogo();
-                }
-            });
-        })
+    jQuery(window).load(function() {
         
+        var $container = $('#portfolio');
+        
+        $container.isotope({
+            transitionDuration: '0.65s',
+            masonry: {
+                columnWidth: $container.find('.portfolio-item:not(.wide)')[0]
+            }
+        });
+        
+        $('#page-menu a').click(function() {
+            $('#page-menu li').removeClass('current');
+            $(this).parent('li').addClass('current');
+            var selector = $(this).attr('data-filter');
+            $container.isotope({
+                filter: selector
+            });
+            return false;
+        });
+        
+        $(window).resize(function() {
+            $container.isotope('layout');
+        });
+        
+    });
     }
 }
 </script>
