@@ -1,0 +1,391 @@
+<template>
+  <div>
+    <Slider/>
+   <section id="content">
+            <div class="content-wrap">
+                <div class="container clearfix">
+                    <div class="row clearfix">
+                        <div class="col-lg-5">
+                            <div class="heading-block topmargin">
+                                <h1>Welcome to IDS<br>
+                                    INFINITY DANCE STUDIO.</h1>
+                            </div>
+                            <p class="lead">Infinity Dance Studio began as a dream. A dream guided by a vision to transmit teachings, lessons, and an immense love for dancing. We are an institution specialized in children and young adults with the objective of becoming professionals in any of the dance disciplines, for those who consider dance a essential complement of their formal education, and for those who simply love this form of art.</p>
+                        </div>
+                        <div class="col-lg-7">
+                            <div data-height-xxs="380" data-height-xs="287" data-height-sm="470" data-height-md="567" data-height-lg="626" class="ohidden" style="position: relative; margin-bottom: -60px; height: 626px;">
+                                <img alt="Chrome" data-delay="100" data-animate="fadeInUp" style="position: absolute; top: 0px; left: 0px;" src="@/assets/img/InfinityDanceStudio.png" class="fadeInUp animated">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix topmargin-lg"></div>
+                <div class="container clearfix topmargin-lg bottommargin-lg">
+                    <div class="col_one_third bottommargin">
+                        <div class="feature-box media-box">
+                            <div class="fbox-media">
+                                <a href="/competition"><img src="@/assets/img/competition_team_thumb.jpg" alt="Competition Dance">
+                                </a>
+                            </div>
+                            <div class="fbox-desc">
+                                <h3><a href="/competition"> Competition dance</a><span class="subtitle">For dancers ages 5 through 18</span></h3>
+                                <p>Team members are selected through an annual audition process. Our studio's goal is to provide as many dancers as possible
+                                    the opportunity to continuously challenge themselves in an different environment while providing the same superior
+                                    dance education we are known to offer to all of our students. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_one_third nobottommargin">
+                        <div class="feature-box media-box">
+                            <div class="fbox-media">
+                                <a href="/classes"><img src="@/assets/img/recreational-dance.jpg" alt="Recreational Dance">
+                                </a>
+                            </div>
+                            <div class="fbox-desc">
+                                <h3><a href="/classes">recreational dance</a><span class="subtitle">Studio Dance, Fitness, and Recreational Classes.</span></h3>
+                                <p>We are pleased to have certified and professional dance staff members trained in specific genres of dance with rich background
+                                    in performance, training and choreography.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col_one_third nobottommargin col_last">
+                        <div class="feature-box media-box">
+                            <div class="fbox-media">
+                                <a href="/camps"><img src="@/assets/img/seasonal-camp.jpg" alt="Seasonal Camps">
+                                </a>
+                            </div>
+                            <div class="fbox-desc">
+                                <h3><a href="/camps">seasonal camps &amp; programs</a><span class="subtitle">Summer, Afterschool &amp; Daytime Camps Available</span></h3>
+                                <p>Our purpose is to provide a summer program for our dancers to can develop their passion for dancing and improve their technique
+                                    in all disciplines in a secure and fun environment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="button button-full button-dark center tright " href="/contact">
+                    <div class="container clearfix">
+                        Ready join our Dance Team? <strong>Call us</strong> <em style="top: 4px;" class="icon-caret-right"></em>
+                    </div>
+                </a>
+                <div class="nobottommargin nobottomborder">
+                    <div class="container clearfix">
+                        <div class="heading-block center topmargin-lg">
+                            <h3>Our Latest Works</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-nomargin portfolio-notitle portfolio-full clearfix" id="portfolio" style="position: relative; height: 541.5px;">
+                    <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 0px; top: 0px; width: 361px;">
+                        <div class="portfolio-image">
+                            <a href="portfolio-single.html">
+                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/1t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                            </a>
+                            <div class="portfolio-overlay">
+                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/1t_large.jpg"><em class="icon-line-plus"></em></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Snow White</h3>
+                            <span>2016</span>
+                        </div>
+                    </article>
+                    <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 361px; top: 0px; width: 361px;">
+                        <div class="portfolio-image">
+                            <a href="portfolio-single.html">
+                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/2t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                            </a>
+                            <div class="portfolio-overlay">
+                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/2t_large.jpg"><em class="icon-line-plus"></em></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Snow White</h3>
+                            <span>2016</span>
+                        </div>
+                    </article>
+                    <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 722px; top: 0px; width: 361px;">
+                        <div class="portfolio-image">
+                            <a href="portfolio-single.html">
+                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/3t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                            </a>
+                            <div class="portfolio-overlay">
+                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/3t_large.jpg"><em class="icon-line-plus"></em></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Snow White</h3>
+                            <span>2016</span>
+                        </div>
+                    </article>
+                    <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 1083px; top: 0px; width: 361px;">
+                        <div class="portfolio-image">
+                            <a href="portfolio-single.html">
+                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/4t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                            </a>
+                            <div class="portfolio-overlay">
+                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/4t_large.jpg"><em class="icon-line-plus"></em></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Snow White</h3>
+                            <span>2016</span>
+                        </div>
+                    </article>
+                    <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 0px; top: 270px; width: 361px;">
+                        <div class="portfolio-image">
+                            <a href="portfolio-single.html">
+                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/5t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                            </a>
+                            <div class="portfolio-overlay">
+                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/5t_large.jpg"><em class="icon-line-plus"></em></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Snow White</h3>
+                            <span>2016</span>
+                        </div>
+                    </article>
+                    <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 361px; top: 270px; width: 361px;">
+                        <div class="portfolio-image">
+                            <a href="portfolio-single.html">
+                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/6t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                            </a>
+                            <div class="portfolio-overlay">
+                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/6t_large.jpg"><em class="icon-line-plus"></em></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Snow White</h3>
+                            <span>2016</span>
+                        </div>
+                    </article>
+                    <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 722px; top: 270px; width: 361px;">
+                        <div class="portfolio-image">
+                            <a href="portfolio-single.html">
+                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/7t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                            </a>
+                            <div class="portfolio-overlay">
+                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/7t_large.jpg"><em class="icon-line-plus"></em></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Snow White</h3>
+                            <span>2016</span>
+                        </div>
+                    </article>
+                    <article class="portfolio-item pf-media pf-icons" style="position: absolute; left: 1083px; top: 270px; width: 361px;">
+                        <div class="portfolio-image">
+                            <a href="portfolio-single.html">
+                                <img alt="Snow white 2016" src="@/assets/img/2016-snow-white/8t.jpg" style="visibility: visible; opacity: 1; display: block;">
+                            </a>
+                            <div class="portfolio-overlay">
+                                <a data-lightbox="image" class="center-icon" href="@/assets/img/2016-snow-white/8t_large.jpg"><em class="icon-line-plus"></em></a>
+                            </div>
+                        </div>
+                        <div class="portfolio-desc">
+                            <h3>Snow White</h3>
+                            <span>2016</span>
+                        </div>
+                    </article>
+                </div>
+               <!-- <script type="text/javascript">
+                    jQuery(window).load(function() {
+                        
+                        var $container = $('#portfolio');
+                        
+                        $container.isotope({
+                            transitionDuration: '0.65s',
+                            masonry: {
+                                columnWidth: $container.find('.portfolio-item:not(.wide)')[0]
+                            }
+                        });
+                        
+                        $('#page-menu a').click(function() {
+                            $('#page-menu li').removeClass('current');
+                            $(this).parent('li').addClass('current');
+                            var selector = $(this).attr('data-filter');
+                            $container.isotope({
+                                filter: selector
+                            });
+                            return false;
+                        });
+                        
+                        $(window).resize(function() {
+                            $container.isotope('layout');
+                        });
+                        
+                    });
+                </script>-->
+                <div>
+                    <div class="container clearfix">
+                        <div class="row">
+                            <div class="heading-block center topmargin-lg">
+                                <h3>Meet Our Team</h3>
+                            </div>
+                            <div class="col-md-4 col-sm-8 ">
+                                <div class="team">
+                                    <div class="team-image">
+                                        <img alt="John Doe" src="@/assets/img/Paty.jpg">
+                                    </div>
+                                    <div class="team-desc team-desc-bg">
+                                        <div class="team-title">
+                                            <h4>Patricia Barreiro</h4>
+                                            <span>Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-8 ">
+                                <div class="team">
+                                    <div class="team-image">
+                                        <img alt="Irasema Berreiro" src="@/assets/img/iracema.jpg">
+                                    </div>
+                                    <div class="team-desc team-desc-bg">
+                                        <div class="team-title">
+                                            <h4>Irasema Cabrera</h4>
+                                            <span>Co-Founder</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-8 ">
+                                <div class="team">
+                                    <div class="team-image">
+                                        <img alt="Mary Jane" src="@/assets/img/Paula.jpg">
+                                    </div>
+                                    <div class="team-desc team-desc-bg">
+                                        <div class="team-title">
+                                            <h4>Paula Barreiro</h4>
+                                            <span>Assistant</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+  </div>
+</template>
+
+<script>
+  import Slider from "@/components/home/partials/Slider.vue";
+  import jQuery from "jquery";
+    var tpj = jQuery;
+                tpj.noConflict();
+
+                tpj(document).ready(function() {
+
+                    var apiRevoSlider = tpj('.tp-banner').show().revolution({
+                        dottedOverlay: "none",
+                        delay: 9000,
+                        startwidth: 1140,
+                        startheight: 700,
+                        hideThumbs: 200,
+
+                        thumbWidth: 100,
+                        thumbHeight: 50,
+                        thumbAmount: 3,
+
+                        navigationType: "none",
+                        navigationArrows: "solo",
+                        navigationStyle: "preview4",
+
+                        touchenabled: "on",
+                        onHoverStop: "on",
+
+                        swipe_velocity: 0.7,
+                        swipe_min_touches: 1,
+                        swipe_max_touches: 1,
+                        drag_block_vertical: false,
+
+
+                        parallax: "mouse",
+                        parallaxBgFreeze: "on",
+                        parallaxLevels: [8, 7, 6, 5, 4, 3, 2, 1],
+                        parallaxDisableOnMobile: "on",
+
+
+                        keyboardNavigation: "on",
+
+                        navigationHAlign: "center",
+                        navigationVAlign: "bottom",
+                        navigationHOffset: 0,
+                        navigationVOffset: 20,
+
+                        soloArrowLeftHalign: "left",
+                        soloArrowLeftValign: "center",
+                        soloArrowLeftHOffset: 20,
+                        soloArrowLeftVOffset: 0,
+
+                        soloArrowRightHalign: "right",
+                        soloArrowRightValign: "center",
+                        soloArrowRightHOffset: 20,
+                        soloArrowRightVOffset: 0,
+
+                        shadow: 0,
+                        fullWidth: "off",
+                        fullScreen: "on",
+
+                        spinner: "spinner0",
+
+                        stopLoop: "off",
+                        stopAfterLoops: -1,
+                        stopAtSlide: -1,
+
+                        shuffle: "off",
+
+
+                        forceFullWidth: "off",
+                        fullScreenAlignForce: "off",
+                        minFullScreenHeight: "400",
+
+                        hideThumbsOnMobile: "off",
+                        hideNavDelayOnMobile: 1500,
+                        hideBulletsOnMobile: "off",
+                        hideArrowsOnMobile: "off",
+                        hideThumbsUnderResolution: 0,
+
+                        hideSliderAtLimit: 0,
+                        hideCaptionAtLimit: 0,
+                        hideAllCaptionAtLilmit: 0,
+                        startWithSlide: 0,
+                        fullScreenOffsetContainer: ".header",
+                        fullScreenOffset: "0px"
+                    });
+
+                    apiRevoSlider.bind("revolution.slide.onchange", function(e, data) {
+                        if ($(window).width() > 992) {
+                            if ($('#slider ul > li').eq(data.slideIndex - 1).hasClass('dark')) {
+                                $('#header.transparent-header:not(.sticky-header,.semi-transparent)').addClass('dark');
+                                $(
+                                    '#header.transparent-header.sticky-header,#header.transparent-header.semi-transparent.sticky-header'
+                                ).removeClass('dark');
+                                $('#header-wrap').removeClass('not-dark');
+                            } else {
+                                if ($('body').hasClass('dark')) {
+                                    $('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
+                                    $('#header.transparent-header:not(.sticky-header,.semi-transparent)').find('#header-wrap').addClass(
+                                        'not-dark');
+                                } else {
+                                    $('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
+                                    $('#header-wrap').removeClass('not-dark');
+                                }
+                            }
+                            SEMICOLON.header.darkLogo();
+                        }
+                    });
+
+                }); //ready
+  export default {
+    name: "Home",
+    components: {
+      Slider
+    },
+    created(){
+        
+    }
+  }
+</script>
