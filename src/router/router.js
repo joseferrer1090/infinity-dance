@@ -15,6 +15,8 @@ import Spring13 from "../components/home/2013Spring.vue";
 
 import Tuitionandfees from "../components/home/Tuitionandfees.vue";
 import Whatson from "../components/home/whatson.vue";
+import Competition from "../components/home/Competition.vue";
+import Contact from "../components/home/Contact.vue";
 
 Vue.use(Router);
 
@@ -87,6 +89,16 @@ export default new Router({
       name: "Whatson",
       path: "/whatson",
       component: Whatson
+    },
+    {
+      name: "Competition",
+      path: "/competition",
+      component: Competition
+    },
+    {
+      name: "Contact",
+      path: "/contact",
+      component: Contact
     }
   ]
 });

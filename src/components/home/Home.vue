@@ -282,7 +282,6 @@
     mounted(){
         var tpj = window.jQuery;
         tpj.noConflict();
-
         tpj(document).ready(function() {
           // console.log(tpj('.tp-banner').show().revolution())
             var apiRevoSlider = tpj('.tp-banner').show().revolution({
@@ -384,8 +383,8 @@
                     SEMICOLON.header.darkLogo();
                 }
             });
-
         })
+        
     }
-  }
+}
 </script>
