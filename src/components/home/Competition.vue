@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="page-title" class="page-title-parallax page-title-dark page-title-right" style="padding: 550px 0px 300px; background-image: url(&quot;/_assets/img/competition_team.jpg&quot;); background-size: cover; background-position: 50% -27.4px;" data-stellar-background-ratio="0.2">
+    <section id="page-title" class="page-title-parallax page-title-dark page-title-right" style="padding: 550px 0px 300px; background-image: url(&quot;/assets/img/competition_team.jpg&quot;); background-size: cover; background-position: 50% -27.4px;" data-stellar-background-ratio="0.2">
 
             <div class="container clearfix">
                 <h1>IDS </h1>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section id="page-title" class="page-title-parallax" style="background-image: url('@/assets/img/tuitionandfees.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
+    <section id="page-title" class="page-title-parallax" style="background-image: url('/assets/img/tuitionandfees.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
       <div class="container clearfix">
           <h1 data-animate="fadeInUp">Tuition &amp; Fees</h1>
           <span data-animate="fadeInUp" data-delay="300"><b>FREE</b> trial class</span>
