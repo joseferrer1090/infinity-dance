@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Home from "../components/home/Home.vue";
 import About from "../components/home/About.vue";
 // Menu Clases
+import Classes from "../components/home/Classes.vue";
 import Schedule from "../components/home/Schedule.vue";
 import Camps from "../components/home/Camps.vue";
 
@@ -36,6 +37,11 @@ export default new Router({
       component: About
     },
     // 1 Menu Clases
+    {
+      name: "Classes",
+      path: "/classes",
+      component: Classes
+    },
     // 1.1 Schedule
     {
       name: "Schedule",

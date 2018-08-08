@@ -1,5 +1,6 @@
 <template>
 <div>
+  <div>
     <menubar/>
 
     <div>
@@ -7,7 +8,10 @@
     </div>
 
     <footer-content/>
-  </div>
+</div>
+<div id="gotoTop" class="icon-angle-up"></div>
+</div>
+  
 </template>
 
 <script>

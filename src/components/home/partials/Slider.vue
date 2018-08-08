@@ -1,6 +1,7 @@
 <template>
-    <section id="slider" class="slider-parallax revoslider-wrap clearfix">
-            <!--- THEMEPUNCH BANNER --->
+    <div>    
+        <section id="slider" class="slider-parallax revoslider-wrap clearfix">
+            <!--- THEMEPUNCH BANNER -->
             <div class="tp-banner-container fullscreen-container">
                 <div class="tp-banner">
                     <ul>
@@ -68,7 +69,9 @@
                     </ul>
                 </div>
             </div>
+            
         </section>
+    </div>
 </template>
 <script>
   export default {
@@ -80,7 +83,7 @@
         var tpj = window.jQuery;
         tpj.noConflict();
         tpj(document).ready(function() {
-          // console.log(tpj('.tp-banner').show().revolution())
+          //console.log(tpj('.tp-banner').show().revolution());
             var apiRevoSlider = tpj('.tp-banner').show().revolution({
                 dottedOverlay: "none",
                 delay: 9000,
@@ -185,3 +188,29 @@
     }
   }
 </script>
+<style>
+.revo-slider-emphasis-text {
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-family: "Raleway", sans-serif;
+  padding: 15px 20px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.revo-slider-desc-text {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  width: 650px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.revo-slider-caps-text {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-family: "Raleway", sans-serif;
+}
+</style>
