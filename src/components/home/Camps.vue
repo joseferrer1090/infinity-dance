@@ -1,6 +1,6 @@
 <template>
     <div>
-      <section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('@/assets/img/calendar.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
+      <section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('/assets/img/calendar.jpg'); padding: 120px 0;" data-stellar-background-ratio="0.3">
 
             <div class="container clearfix">
                 <h1 data-animate="fadeInUp">Seasonal Camps</h1>
@@ -12,7 +12,7 @@
             <div class="content-wrap">
                 <div class="container clearfix">
                     <div class="col_one_third bottommargin-sm center">
-                        <img data-animate="fadeInLeft" src="@/assets/img/summer_camp.jpg" alt="Summer Camp ">
+                        <img data-animate="fadeInLeft" src="/assets/img/summer_camp.jpg" alt="Summer Camp ">
                     </div>
                     <div class="col_two_third bottommargin-lg col_last">
                         <div class="heading-block topmargin-sm">
@@ -24,7 +24,7 @@
 
                         <p>Some of our activities are: Acting, Acrobatics, Ballet, Ballroom, Belly Dancing, Conditioning, Flamenco, Jazz, Hip-Hop, Field Trips and more! </p>
 
-                        <a href="contact.html" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
+                        <a href="/contact" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
 
                     </div>
 
@@ -39,17 +39,17 @@
                         <p>We offer day camp during Teacher Planning Days where dancers spend a fun filled day with some dancing and artistic activities. Lunch and snacks provided!
                         </p>
 
-                        <a href="contact.html" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
+                        <a href="/contact" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
 
                     </div>
                     <div class="col_one_third bottommargin-lg center align-right">
-                        <img data-animate="fadeInRight" src="@/assets/img/day-camp.jpg" alt="Day Camp ">
+                        <img data-animate="fadeInRight" src="/assets/img/day-camp.jpg" alt="Day Camp ">
                     </div>
 
                     <div class="line"></div>
 
                     <div class="col_one_third bottommargin-sm center">
-                        <img data-animate="fadeInLeft" src="@/assets/img/afterschool-camp.jpg" alt="Summer Camp ">
+                        <img data-animate="fadeInLeft" src="/assets/img/afterschool-camp.jpg" alt="Summer Camp ">
                     </div>
 
                     <div class="col_two_third bottommargin-lg col_last">
@@ -60,7 +60,7 @@
 
                         <p>Our studio offers after school care and tutoring at our location. This program includes homework assistance and tutoring, weekly dance classes and snacks.
                         </p>
-                        <a href="contact.html" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
+                        <a href="/contact" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
 
                     </div>
 
