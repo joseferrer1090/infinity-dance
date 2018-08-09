@@ -106,7 +106,7 @@
                                 <span class="price-unit">&dollar;</span>185<span class="price-tenure">/mo</span>
                             </div>
                             <div class="pricing-action">
-                                <a href="contact.html" class="btn btn-danger btn-block">Get Started</a>
+                                <a href="/contact" class="btn btn-danger btn-block">Get Started</a>
                             </div>
                         </div>
 
@@ -119,7 +119,7 @@
                                 <span class="price-unit">&dollar;</span>200<span class="price-tenure">/mo</span>
                             </div>
                             <div class="pricing-action">
-                                <a href="contact.html" class="btn btn-danger btn-block">Get Started</a>
+                                <a href="/contact" class="btn btn-danger btn-block">Get Started</a>
                             </div>
                         </div>
 

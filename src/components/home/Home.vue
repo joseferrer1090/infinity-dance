@@ -24,7 +24,7 @@
                     <div class="col_one_third bottommargin">
                         <div class="feature-box media-box">
                             <div class="fbox-media">
-                                <a href="competition.html"><img src="/assets/img/competition_team_thumb.jpg" alt="Competition Dance">
+                                <a href="/competition"><img src="/assets/img/competition_team_thumb.jpg" alt="Competition Dance">
                                 </a>
                             </div>
                             <div class="fbox-desc">
@@ -37,7 +37,7 @@
                     <div class="col_one_third nobottommargin">
                         <div class="feature-box media-box">
                             <div class="fbox-media">
-                                <a href="classes.html"><img src="/assets/img/recreational-dance.jpg" alt="Recreational Dance">
+                                <a href="/classes"><img src="/assets/img/recreational-dance.jpg" alt="Recreational Dance">
                                 </a>
                             </div>
                             <div class="fbox-desc">
@@ -49,7 +49,7 @@
                     <div class="col_one_third nobottommargin col_last">
                         <div class="feature-box media-box">
                             <div class="fbox-media">
-                                <a href="camps.html"><img src="/assets/img/seasonal-camp.jpg" alt="Seasonal Camps">
+                                <a href="/camps"><img src="/assets/img/seasonal-camp.jpg" alt="Seasonal Camps">
                                 </a>
                             </div>
                             <div class="fbox-desc">

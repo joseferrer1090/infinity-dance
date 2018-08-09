@@ -25,7 +25,7 @@
 
                         <p>Our school has developed a comprehensive syllabus to implement in each level based on the child's capacity and abilities. </p>
 
-                        <a href="contact.html" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
+                        <a href="/contact" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
 
                     </div>
 
@@ -65,7 +65,7 @@
                         <p>Flamenco dance is a highly-expressive, Spanish dance form. The flamenco dance characterized by hand clapping, percussive footwork, and intricate hand, arm and body movements.
                         </p>
                         <p>As part of the class technique, students learn the use of abanicos, pericones, castañuelas, y mantillas.</p>
-                        <a href="contact.html" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
+                        <a href="/contact" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
 
                     </div>
 
@@ -81,7 +81,7 @@
                         <p>Belly Dance is a type of Middle Eastern dance, primarily torso-driven dance, with an emphasis on articulations of the hips.</p>
                         <p>As art of Belly Dance technique, students master Shimmies, shivers, vibrations, percussive and fluid movements. The class utilizes canes, swords, fans, veils, and other props as part of their training and performance.</p>
 
-                        <a href="contact.html" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
+                        <a href="/contact" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
 
                     </div>
                     <div class="col_one_third bottommargin-lg center align-right">
@@ -103,7 +103,7 @@
 
                         <p>This style differs from other forms of dance is that it is often "freestyle" (improvisational) in nature. Hip-hop is highly musical and is just as phisically demanding as any other style.
                         </p>
-                        <a href="contact.html" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
+                        <a href="/contact" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
 
                     </div>
 
@@ -143,7 +143,7 @@
 
                         <p>Contemporary dance is a style of expressive dance that combines elements of several dance genres including modern, jazz, lyrical and classical ballet. </p>
                         <p>During this class dancers strive to connect the mind and the body through fluid dance movements. Students will develop versatility and improvisation, during complex combinations. This dance genre is often done in bare feet.</p>
-                        <a href="contact.html" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
+                        <a href="/contact" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
 
                     </div>
 
@@ -162,7 +162,7 @@
                         <p>ome of the rhythms our dancers learn are Swing, Rumba/Bolero, Cha Cha, Salsa/Mambo, Merengue, Disco/Hustle, Samba and Paso Doble.
                         </p>
 
-                        <a href="contact.html" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
+                        <a href="/contact" class="button button-border button-dark button-rounded button-large noleftmargin topmargin-sm">Learn more</a>
 
                     </div>
                     <div class="col_one_third bottommargin-lg center align-right">
