@@ -1,17 +1,15 @@
 <template>
 <div>
+
   <div>
     <menubar/>
-
     <div>
-    <router-view></router-view>
+      <router-view></router-view>
     </div>
-
     <footer-content/>
-</div>
-<div id="gotoTop" class="icon-angle-up"></div>
-</div>
+  </div>
   
+</div>
 </template>
 
 <script>
