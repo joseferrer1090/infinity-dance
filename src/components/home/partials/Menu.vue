@@ -18,7 +18,7 @@
               <nav id="primary-menu" class="dark">
                   <ul>
                       <li> <a href="/about">About</a> </li>
-                      <li><a href="classes.html">Classes</a>
+                      <li> <a href="/classes">Classes</a>
                           <ul>
                               <li><a href="schedule.html">Schedule</a></li>
                               <li><a href="camps.html">Camps</a></li>
