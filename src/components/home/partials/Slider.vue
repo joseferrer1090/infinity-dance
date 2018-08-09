@@ -80,110 +80,112 @@
 
     },
     mounted(){
-        var tpj = window.jQuery;
-        tpj.noConflict();
-        tpj(document).ready(function() {
-          //console.log(tpj('.tp-banner').show().revolution());
-            var apiRevoSlider = tpj('.tp-banner').show().revolution({
-                dottedOverlay: "none",
-                delay: 9000,
-                startwidth: 1140,
-                startheight: 700,
-                hideThumbs: 200,
-
-                thumbWidth: 100,
-                thumbHeight: 50,
-                thumbAmount: 3,
-
-                navigationType: "none",
-                navigationArrows: "solo",
-                navigationStyle: "preview4",
-
-                touchenabled: "on",
-                onHoverStop: "on",
-
-                swipe_velocity: 0.7,
-                swipe_min_touches: 1,
-                swipe_max_touches: 1,
-                drag_block_vertical: false,
-
-
-                parallax: "mouse",
-                parallaxBgFreeze: "on",
-                parallaxLevels: [8, 7, 6, 5, 4, 3, 2, 1],
-                parallaxDisableOnMobile: "on",
-
-
-                keyboardNavigation: "on",
-
-                navigationHAlign: "center",
-                navigationVAlign: "bottom",
-                navigationHOffset: 0,
-                navigationVOffset: 20,
-
-                soloArrowLeftHalign: "left",
-                soloArrowLeftValign: "center",
-                soloArrowLeftHOffset: 20,
-                soloArrowLeftVOffset: 0,
-
-                soloArrowRightHalign: "right",
-                soloArrowRightValign: "center",
-                soloArrowRightHOffset: 20,
-                soloArrowRightVOffset: 0,
-
-                shadow: 0,
-                fullWidth: "off",
-                fullScreen: "on",
-
-                spinner: "spinner0",
-
-                stopLoop: "off",
-                stopAfterLoops: -1,
-                stopAtSlide: -1,
-
-                shuffle: "off",
-
-
-                forceFullWidth: "off",
-                fullScreenAlignForce: "off",
-                minFullScreenHeight: "400",
-
-                hideThumbsOnMobile: "off",
-                hideNavDelayOnMobile: 1500,
-                hideBulletsOnMobile: "off",
-                hideArrowsOnMobile: "off",
-                hideThumbsUnderResolution: 0,
-
-                hideSliderAtLimit: 0,
-                hideCaptionAtLimit: 0,
-                hideAllCaptionAtLilmit: 0,
-                startWithSlide: 0,
-                fullScreenOffsetContainer: ".header",
-                fullScreenOffset: "0px"
-            })
-
-            apiRevoSlider.bind("revolution.slide.onchange", function(e, data) {
-                if (tpj(window).width() > 992) {
-                    if (tpj('#slider ul > li').eq(data.slideIndex - 1).hasClass('dark')) {
-                        tpj('#header.transparent-header:not(.sticky-header,.semi-transparent)').addClass('dark');
-                        tpj(
-                            '#header.transparent-header.sticky-header,#header.transparent-header.semi-transparent.sticky-header'
-                        ).removeClass('dark');
-                        tpj('#header-wrap').removeClass('not-dark');
-                    } else {
-                        if (tpj('body').hasClass('dark')) {
-                            tpj('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
-                            tpj('#header.transparent-header:not(.sticky-header,.semi-transparent)').find('#header-wrap').addClass(
-                                'not-dark');
-                        } else {
-                            tpj('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
-                            tpj('#header-wrap').removeClass('not-dark');
+         var tpj = jQuery;
+                tpj.noConflict();
+                
+                tpj(document).ready(function() {
+                    
+                    var apiRevoSlider = tpj('.tp-banner').show().revolution({
+                        dottedOverlay: "none",
+                        delay: 9000,
+                        startwidth: 1140,
+                        startheight: 700,
+                        hideThumbs: 200,
+                        
+                        thumbWidth: 100,
+                        thumbHeight: 50,
+                        thumbAmount: 3,
+                        
+                        navigationType: "none",
+                        navigationArrows: "solo",
+                        navigationStyle: "preview4",
+                        
+                        touchenabled: "on",
+                        onHoverStop: "on",
+                        
+                        swipe_velocity: 0.7,
+                        swipe_min_touches: 1,
+                        swipe_max_touches: 1,
+                        drag_block_vertical: false,
+                        
+                        
+                        parallax: "mouse",
+                        parallaxBgFreeze: "on",
+                        parallaxLevels: [8, 7, 6, 5, 4, 3, 2, 1],
+                        parallaxDisableOnMobile: "on",
+                        
+                        
+                        keyboardNavigation: "on",
+                        
+                        navigationHAlign: "center",
+                        navigationVAlign: "bottom",
+                        navigationHOffset: 0,
+                        navigationVOffset: 20,
+                        
+                        soloArrowLeftHalign: "left",
+                        soloArrowLeftValign: "center",
+                        soloArrowLeftHOffset: 20,
+                        soloArrowLeftVOffset: 0,
+                        
+                        soloArrowRightHalign: "right",
+                        soloArrowRightValign: "center",
+                        soloArrowRightHOffset: 20,
+                        soloArrowRightVOffset: 0,
+                        
+                        shadow: 0,
+                        fullWidth: "off",
+                        fullScreen: "on",
+                        
+                        spinner: "spinner0",
+                        
+                        stopLoop: "off",
+                        stopAfterLoops: -1,
+                        stopAtSlide: -1,
+                        
+                        shuffle: "off",
+                        
+                        
+                        forceFullWidth: "off",
+                        fullScreenAlignForce: "off",
+                        minFullScreenHeight: "400",
+                        
+                        hideThumbsOnMobile: "off",
+                        hideNavDelayOnMobile: 1500,
+                        hideBulletsOnMobile: "off",
+                        hideArrowsOnMobile: "off",
+                        hideThumbsUnderResolution: 0,
+                        
+                        hideSliderAtLimit: 0,
+                        hideCaptionAtLimit: 0,
+                        hideAllCaptionAtLilmit: 0,
+                        startWithSlide: 0,
+                        fullScreenOffsetContainer: ".header",
+                        fullScreenOffset: "0px"
+                    });
+                    
+                    apiRevoSlider.bind("revolution.slide.onchange", function(e, data) {
+                        if ($(window).width() > 992) {
+                            if ($('#slider ul > li').eq(data.slideIndex - 1).hasClass('dark')) {
+                                $('#header.transparent-header:not(.sticky-header,.semi-transparent)').addClass('dark');
+                                $(
+                                    '#header.transparent-header.sticky-header,#header.transparent-header.semi-transparent.sticky-header'
+                                ).removeClass('dark');
+                                $('#header-wrap').removeClass('not-dark');
+                            } else {
+                                if ($('body').hasClass('dark')) {
+                                    $('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
+                                    $('#header.transparent-header:not(.sticky-header,.semi-transparent)').find('#header-wrap').addClass(
+                                        'not-dark');
+                                } else {
+                                    $('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
+                                    $('#header-wrap').removeClass('not-dark');
+                                }
+                            }
+                            SEMICOLON.header.darkLogo();
                         }
-                    }
-                    SEMICOLON.header.darkLogo();
-                }
-            });
-        })
+                    });
+                    
+                }); //ready
         
     }
   }
