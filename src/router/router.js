@@ -64,25 +64,25 @@ export default new Router({
     // 2.2 2015-spring
     {
       name: "Spring2015",
-      path: "/2015-spring",
+      path: "/2015-winter",
       component: Spring15
     },
     // 2.3 2014-spring
     {
       name: "Spring2014",
-      path: "/2014-spring",
+      path: "/2014-winter",
       component: Spring14
     },
     // 2.4 20142-spring
     {
       name: "Sprgin20142",
-      path: "/20142-spring",
+      path: "/2014-summer",
       component: Spring142
     },
     // 2.5 2013-spring
     {
       name: "Spring2013",
-      path: "/2013-spring",
+      path: "/2013-june",
       component: Spring13
     },
     // END Menu Show
