@@ -164,21 +164,21 @@
                     });
                     
                     apiRevoSlider.bind("revolution.slide.onchange", function(e, data) {
-                        if ($(window).width() > 992) {
-                            if ($('#slider ul > li').eq(data.slideIndex - 1).hasClass('dark')) {
-                                $('#header.transparent-header:not(.sticky-header,.semi-transparent)').addClass('dark');
-                                $(
+                        if (jQuery(window).width() > 992) {
+                            if (jQuery('#slider ul > li').eq(data.slideIndex - 1).hasClass('dark')) {
+                                jQuery('#header.transparent-header:not(.sticky-header,.semi-transparent)').addClass('dark');
+                                jQuery(
                                     '#header.transparent-header.sticky-header,#header.transparent-header.semi-transparent.sticky-header'
                                 ).removeClass('dark');
-                                $('#header-wrap').removeClass('not-dark');
+                                jQuery('#header-wrap').removeClass('not-dark');
                             } else {
-                                if ($('body').hasClass('dark')) {
-                                    $('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
-                                    $('#header.transparent-header:not(.sticky-header,.semi-transparent)').find('#header-wrap').addClass(
+                                if (jQuery('body').hasClass('dark')) {
+                                    jQuery('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
+                                    jQuery('#header.transparent-header:not(.sticky-header,.semi-transparent)').find('#header-wrap').addClass(
                                         'not-dark');
                                 } else {
-                                    $('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
-                                    $('#header-wrap').removeClass('not-dark');
+                                    jQuery('#header.transparent-header:not(.semi-transparent)').removeClass('dark');
+                                    jQuery('#header-wrap').removeClass('not-dark');
                                 }
                             }
                             SEMICOLON.header.darkLogo();

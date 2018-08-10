@@ -6,7 +6,7 @@ Vue.config.productionTip = false;
 
 // ==== Bootstrap components integrations (JQuery needed) ======= //
 //window.$ = window.jQuery = require("jquery");
-require("bootstrap-sass");
+//require("bootstrap-sass");
 
 new Vue({
   router,
